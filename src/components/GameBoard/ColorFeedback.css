@@ -1,0 +1,27 @@
+.color-feedback {
+  display: flex;
+  justify-content: center;
+}
+
+.color-feedback__letter {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-feedback__letter--correct {
+  background-color: green;
+}
+
+.color-feedback__letter--incorrect {
+  background-color: red;
+}
+
+.color-feedback__letter--unattempted {
+  background-color: yellow;
+  border: 1px solid black;
+}
